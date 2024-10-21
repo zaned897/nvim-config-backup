@@ -1,4 +1,6 @@
-# 💤 LazyVim
+# Personal 💤 LazyVim Configuration
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+
+Mainly differ from he default config by adding copilot plugin and some keymaps
+
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
