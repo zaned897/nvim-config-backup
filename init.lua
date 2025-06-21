@@ -23,6 +23,12 @@ vim.cmd([[
   hi NormalNC guibg=NONE
 ]])
 
+-- CursorLine
+vim.cmd("highlight CursorLine guibg=#5c5f77")
+
+-- Visual (selección)
+vim.cmd("highlight Visual guibg=#6c7086 guifg=NONE")
+
 vim.o.cmdheight = 1
 
 -- add 'kj' to exit insert mode
