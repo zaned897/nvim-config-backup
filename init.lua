@@ -22,8 +22,11 @@ vim.cmd([[
   hi Normal guibg=NONE
   hi NormalNC guibg=NONE
 ]])
+vim.o.cursorline = true
+
+vim.cmd("highlight CursorLine guibg=#21252b") -- línea activa casi igual al fondo
+vim.cmd("highlight Visual guibg=#083da8 guifg=NONE") -- selección suave pero visible
 
 vim.o.cmdheight = 1
 
--- add 'kj' to exit insert mode
 vim.api.nvim_set_keymap("i", "kj", "<Esc>", { noremap = true, silent = true })
